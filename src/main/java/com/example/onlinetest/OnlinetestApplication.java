@@ -9,5 +9,10 @@ public class OnlinetestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(OnlinetestApplication.class, args);
 	}
+	
+	public String getMessage() {
+		return "Welcome...";
+	}
+	
 
 }
